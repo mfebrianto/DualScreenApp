@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *mainLabel;
+@property (weak, nonatomic) IBOutlet UIButton *mainButton;
+
+@property (nonatomic, strong) UIWindow *mirroredWindow;
+@property (nonatomic, strong) UIScreen *mirroredScreen;
 
 @end
 
